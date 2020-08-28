@@ -1,7 +1,7 @@
 // output the header row
 document.write('<span class="cell header">&times;</span>');
 let i = 0;
-while (i <= 10) {
+while (i <= 10) {(number =
   document.write('<span class="cell header">' + i + "</span>");
   i++;
 }
@@ -16,5 +16,6 @@ while (j <= 10) {
     document.write('<span class="cell">' + n * j + "</span>");
     n++;
   }
+  document.write("<br>");
   j++;
 }
